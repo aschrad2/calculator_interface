@@ -1,3 +1,4 @@
+// Business Logic
 const add = function (number1, number2) {
   return number1 + number2;
 };
@@ -14,6 +15,7 @@ const divide = function (number1, number2) {
   return number1 / number2;
 };
 
+// User Interface Logic
 $(document).ready(function () {
   $('form#add').submit(function (event) {
     event.preventDefault();
